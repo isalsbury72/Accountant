@@ -104,6 +104,33 @@ git remote add origin <your-github-repo-url>
 git push -u origin <your-branch-name>
 ```
 
+## Why "Create PR" did not update GitHub files
+
+Important: creating a PR message does **not** upload code by itself.
+
+For GitHub to show new files, this order is required:
+1. Commit changes locally.
+2. Push the branch to GitHub.
+3. Open/update PR on GitHub.
+
+### Quick diagnosis commands
+```bash
+git status
+git remote -v
+git branch --show-current
+git log --oneline -5
+```
+
+If `git remote -v` is empty, connect remote first:
+```bash
+git remote add origin <your-github-repo-url>
+```
+
+Then push your current branch:
+```bash
+git push -u origin <your-branch-name>
+```
+
 ## If you do not see changes on GitHub
 
 That means the code is only local right now and has not been pushed to your GitHub repo yet.
