@@ -104,6 +104,33 @@ git remote add origin <your-github-repo-url>
 git push -u origin <your-branch-name>
 ```
 
+## Why "Create PR" did not update GitHub files
+
+Important: creating a PR message does **not** upload code by itself.
+
+For GitHub to show new files, this order is required:
+1. Commit changes locally.
+2. Push the branch to GitHub.
+3. Open/update PR on GitHub.
+
+### Quick diagnosis commands
+```bash
+git status
+git remote -v
+git branch --show-current
+git log --oneline -5
+```
+
+If `git remote -v` is empty, connect remote first:
+```bash
+git remote add origin <your-github-repo-url>
+```
+
+Then push your current branch:
+```bash
+git push -u origin <your-branch-name>
+```
+
 ## If you do not see changes on GitHub
 
 That means the code is only local right now and has not been pushed to your GitHub repo yet.
@@ -208,6 +235,54 @@ Then open:
 - `http://127.0.0.1:4173`
 
 If `127.0.0.1` does not load, try `http://localhost:4173`.
+
+## Import your 2 CSV files (suppliers + invoices)
+
+Best path: convert both CSV files into the app's JSON backup format, then use **Import JSON** in the app.
+
+### 1) Prepare CSV headers
+The converter accepts common header names automatically:
+- Suppliers CSV: `name`/`supplier_name`, optional `address`, `phone`, `category`, `subcategory`
+- Invoices CSV: `date`, `supplier`/`supplier_name`, `amount`, optional `category`, `subcategory`, `description`
+
+### 2) Run converter
+```bash
+python3 csv_to_accountant_json.py \
+  --suppliers suppliers.csv \
+  --invoices invoices.csv \
+  --out accountant-import.json
+```
+
+### 3) Import into the app
+1. Open the app.
+2. Click **Import JSON**.
+3. Select `accountant-import.json`.
+
+Notes:
+- This imports suppliers + expenses.
+- Invoice files/photos are not imported from CSV (CSV does not contain binary file data).
+
+## Can I run this over the web from GitHub?
+
+Yes — this app is static, so it can be hosted with **GitHub Pages**.
+
+### Important notes first
+- It works well on GitHub Pages because there is no backend server required.
+- Data is still local to each browser/device (IndexedDB), so phone and laptop do not auto-sync.
+- If your repo is private, GitHub Pages availability depends on your GitHub plan/org settings.
+
+### Quick publish steps (GitHub Pages)
+1. Push the project files to your GitHub repo.
+2. In GitHub, open **Settings → Pages**.
+3. Under **Build and deployment**, set:
+   - **Source**: `Deploy from a branch`
+   - **Branch**: `main` (or your branch), folder `/ (root)`
+4. Save, wait for deploy, then open the Pages URL shown there.
+
+### If Pages is not available
+- Make the repo public, or
+- Use your DreamIT static hosting (upload the same files), or
+- Keep running locally via `start-local.bat`.
 
 ## Data model (MVP)
 
