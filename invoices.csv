@@ -1,0 +1,263 @@
+id,date,supp_id,supplier,amount,category,sub category,description
+794,22/12/2023,100,Ipswich Waste Services,14,Person Expenses,Dump Fees,
+608,15/10/2021,100,Ipswich Waste Services,12,Personal Expenses,Dump Fees,
+710,18/12/2021,100,Ipswich Waste Services,12,Personal Expenses,Dump Fees,Rubbish Disposal
+562,29/01/2021,122,Amazon,291,Personal Expenses,"Parts, Screws, Cable, Fixtures",Weight Distribution Hitch
+565,4/02/2021,229,Haymans Electrical Parts,57.82,Personal Expenses,"Parts, Screws, Cable, Fixtures","Socket, Busbar And Lead"
+568,12/11/2020,13,Haymans Electrical Tools,299.98,Personal Expenses,"Parts, Screws, Cable, Fixtures",Switchboard And Hinged Door
+678,3/04/2021,89,Harvey Norman,2178,Work Related Expenses,Computer Hardware,Dell Pc
+739,29/06/2022,89,Harvey Norman,1305.95,Work Related Expenses,Computer Hardware,Hp Laptop
+683,19/05/2021,238,Caddit,695,Work Related Expenses,Computer Software,Progecad Software
+723,6/10/2021,206,Microsoft,129,Work Related Expenses,Computer Software,Office 365 Subscription
+745,4/10/2022,206,Microsoft,129,Work Related Expenses,Computer Software,Office 365 Subscription
+798,30/06/2024,235,Avg Antivirus Licence,169.99,Work Related Expenses,Computer Software,Avg Antivirus
+803,6/10/2023,206`,Microsoft,139,Work Related Expenses,Computer Software,Office 365 
+836,26/01/2024,206,Microsoft,59.95,Work Related Expenses,Computer Software,
+680,30/04/2021,221,Linkt,14.99,Work Related Expenses,Etoll,
+686,30/06/2021,221,Linkt,47.8,Work Related Expenses,Etoll,
+738,30/06/2022,221,Linkt,340,Work Related Expenses,Etoll,Etoll
+824,30/06/2024,221,Linkt,380,Work Related Expenses,Etoll,Etolls
+685,30/06/2021,44,Big Pond,1548,Work Related Expenses,Internet,
+725,24/11/2021,224,Dream It Solutions,35.4,Work Related Expenses,Internet,Internet Hosting
+734,30/06/2022,44,Big Pond,1728,Work Related Expenses,Internet,Internet
+737,30/06/2023,44,Big Pond,1378,Work Related Expenses,Internet,Internet
+746,24/11/2022,224,Dream It Solutions,35.4,Work Related Expenses,Internet,Email Hosting
+800,30/06/2024,169,Telstra,1500,Work Related Expenses,Internet,Home Internet
+795,27/02/2024,252,Nathan Ray,330,Work Related Expenses,Last Years Tax Return,2022 & 2023 Tax Return
+839,14/02/2025,252,Nathan Ray,165,Work Related Expenses,Last Years Tax Return,2024 Financial Year
+540,22/04/2021,227,Qbcc,123.85,Work Related Expenses,Licences,Occupational Licences
+567,26/03/2021,227,Qbcc,247.7,Work Related Expenses,Licences,Occupational Licence
+659,14/09/2020,235,Avg Antivirus Licence,7.49,Work Related Expenses,Licences,Dri*Avg Technologies
+703,19/12/2023,243,Fire Protection Industry,156,Work Related Expenses,Licences,Gas Licence
+728,15/06/2022,235,Avg Antivirus Licence,167.99,Work Related Expenses,Licences,Antivirus
+740,28/03/2022,227,Qbcc,125.95,Work Related Expenses,Licences,Qbcc Licences
+741,2/04/2023,227,Qbcc,129.1,Work Related Expenses,Licences,Qbcc Licences
+742,14/11/2021,207,Electrical Safety Office,85.75,Work Related Expenses,Licences,Electrical Licence
+754,16/06/2023,235,Avg Antivirus Licence,167.99,Work Related Expenses,Licences,Software Licence
+797,1/04/2024,227,Qbcc,133.51,Work Related Expenses,Licences,Qbcc Licence Renewal
+684,30/06/2021,169,Telstra,1188,Work Related Expenses,Mobile Phone,
+735,30/06/2022,169,Telstra,1368,Work Related Expenses,Mobile Phone,Mobile
+736,30/06/2023,169,Telstra,1378,Work Related Expenses,Mobile Phone,Mobile
+799,30/06/2024,169,Telstra,1248,Work Related Expenses,Mobile Phone,Mobile Phone
+609,9/05/2021,139,Parking,29,Work Related Expenses,Parking,
+671,16/11/2020,139,Parking,12,Work Related Expenses,Parking,
+673,1/12/2020,139,Parking,23.2,Work Related Expenses,Parking,
+677,26/02/2021,139,Parking,29,Work Related Expenses,Parking,
+679,20/04/2021,139,Parking,29,Work Related Expenses,Parking,
+681,10/05/2021,139,Parking,2.1,Work Related Expenses,Parking,
+682,11/05/2021,139,Parking,29,Work Related Expenses,Parking,
+733,20/12/2021,139,Parking,15.9,Work Related Expenses,Parking,Parking
+539,20/06/2021,104,Jaycar,57.85,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Ase Lead And Adapter
+544,24/12/2020,229,Haymans Electrical Parts,17.62,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Single Gang Switch
+561,25/01/2021,229,Haymans Electrical Parts,121.14,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Weatherproof Gpo's
+563,26/11/2020,229,Haymans Electrical Parts,29.4,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Weatherproof Gpo
+573,25/08/2020,33,Amazon,54,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Phone Cover
+614,20/12/2020,4,Bunnings Warehouse,36.53,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Wire Rope And Shackles
+615,28/11/2020,4,Bunnings Warehouse,39.5,Work Related Expenses,"Parts, Screws, Cable, Fixtures",
+618,23/11/2020,4,Bunnings Warehouse,8.01,Work Related Expenses,"Parts, Screws, Cable, Fixtures",
+656,25/08/2020,234,Beacon Lighting,46.01,Work Related Expenses,"Parts, Screws, Cable, Fixtures",
+690,27/01/2023,165,Super Cheap Auto,25.99,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Battery Leads
+692,28/04/2022,229,Haymans Electrical Parts,90,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Switches And Lights
+694,5/11/2022,105,Jb Hifi,78.9,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Phone Case And Screen Protector
+696,28/04/2022,229,Haymans Electrical Parts,90,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Switches And Lights
+718,13/06/2023,4,Bunnings Warehouse,52.5,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Gas Fittings
+765,3/05/2023,229,Haymans Electrical Parts,19.5,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Mounting Flanges
+766,3/05/2023,229,Haymans Electrical Parts,10.29,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Module Enclosures
+767,13/04/2023,229,Haymans Electrical Parts,159.7,Work Related Expenses,"Parts, Screws, Cable, Fixtures","Circuit Breaker, Gpo"
+775,6/10/2023,104,Jaycar,16.95,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Usb Plug
+776,30/06/2023,104,Jaycar,31.9,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Plugs And Lead
+777,9/04/2023,104,Jaycar,71.7,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Figure 8 Cable
+778,8/04/2023,104,Jaycar,40.52,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Wiring
+779,8/02/2023,104,Jaycar,207.3,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Crimps And Cables
+784,29/06/2023,251,Brisbane Fasteners,9.47,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Bolts And Nuts
+790,30/06/2023,104,Jaycar,31.9,Work Related Expenses,"Parts, Screws, Cable, Fixtures",
+792,16/06/2023,4,Bunnings Warehouse,23.81,Work Related Expenses,"Parts, Screws, Cable, Fixtures",
+793,24/12/2023,4,Bunnings Warehouse,201.7,Work Related Expenses,"Parts, Screws, Cable, Fixtures",
+801,30/06/2024,229,Haymans Electrical Parts,420,Work Related Expenses,"Parts, Screws, Cable, Fixtures",Various Parts
+832,20/05/2024,104,Jaycar,46.9,Work Related Expenses,"Parts, Screws, Cable, Fixtures",
+543,31/07/2020,228,Rsea,206.25,Work Related Expenses,Ppe,Steel Cap Boots And Safety Glasses
+667,30/06/2021,236,Dmw Industries,106,Work Related Expenses,Ppe,Shirts And Hats
+688,21/12/2021,228,Rsea,63.75,Work Related Expenses,Ppe,Boots
+691,21/12/2021,228,Rsea,213.7,Work Related Expenses,Ppe,Boots
+701,26/06/2023,241,Sprengers,44.95,Work Related Expenses,Ppe,Shirt
+708,15/07/2022,123,Mister Mint,21.95,Work Related Expenses,Ppe,Batteries
+716,20/04/2023,124,Mitre 10,14.49,Work Related Expenses,Ppe,Gloves
+722,11/09/2021,244,Rm Williams,50,Work Related Expenses,Ppe,Belt
+726,22/02/2022,245,Caos,124,Work Related Expenses,Ppe,Recovery Gear
+752,28/11/2022,248,Hanes Australasia,16.9,Work Related Expenses,Ppe,Shirts
+753,21/01/2023,249,Ppe,55,Work Related Expenses,Ppe,Shirts
+802,30/06/2024,249,Ppe,318.35,Work Related Expenses,Ppe,Ppe
+532,27/07/2020,134,Officeworks,10.79,Work Related Expenses,Stationary,"A2, A3 Printing And Laminating"
+533,29/07/2020,134,Officeworks,6.64,Work Related Expenses,Stationary,Printing A3 And Laminating Block Plans
+534,30/07/2020,134,Officeworks,3.64,Work Related Expenses,Stationary,A3 Printing And Laminating Block Plans
+536,7/08/2020,134,Officeworks,5.3,Work Related Expenses,Stationary,A1 Prints
+537,8/08/2020,134,Officeworks,21.2,Work Related Expenses,Stationary,A1 Plan Prints
+545,26/09/2020,134,Officeworks,28.38,Work Related Expenses,Stationary,Mouse Pad And Mouse
+576,25/03/2021,134,Officeworks,99,Work Related Expenses,Stationary,Desk 
+577,14/04/2021,134,Officeworks,4.82,Work Related Expenses,Stationary,Printing
+579,22/09/2020,134,Officeworks,7.12,Work Related Expenses,Stationary,Printing
+580,12/12/2020,134,Officeworks,12.8,Work Related Expenses,Stationary,Printing
+581,24/02/2021,134,Officeworks,3.64,Work Related Expenses,Stationary,Printing
+582,25/02/2021,134,Officeworks,3.64,Work Related Expenses,Stationary,Printing
+584,9/04/2021,134,Officeworks,9.64,Work Related Expenses,Stationary,Printing
+585,29/03/2021,134,Officeworks,14.46,Work Related Expenses,Stationary,Printing
+586,29/03/2021,134,Officeworks,4.82,Work Related Expenses,Stationary,Printing
+587,4/05/2021,134,Officeworks,2.65,Work Related Expenses,Stationary,Printing
+588,5/05/2021,134,Officeworks,14.77,Work Related Expenses,Stationary,Printing
+589,19/05/2021,134,Officeworks,2.65,Work Related Expenses,Stationary,Printing
+590,24/05/2021,134,Officeworks,1.99,Work Related Expenses,Stationary,Printing
+591,24/05/2021,134,Officeworks,3.98,Work Related Expenses,Stationary,Printing
+592,24/05/2021,134,Officeworks,0.2,Work Related Expenses,Stationary,Printing
+593,24/05/2021,134,Officeworks,0.2,Work Related Expenses,Stationary,Printing
+594,20/06/2021,134,Officeworks,15.43,Work Related Expenses,Stationary,Printing
+595,20/06/2021,134,Officeworks,4.38,Work Related Expenses,Stationary,Printing
+596,23/06/2021,134,Officeworks,5.02,Work Related Expenses,Stationary,Printing
+597,9/08/2021,134,Officeworks,4.82,Work Related Expenses,Stationary,Printing
+598,21/08/2021,134,Officeworks,4.82,Work Related Expenses,Stationary,Printing
+599,12/10/2021,134,Officeworks,6.17,Work Related Expenses,Stationary,Printing
+600,13/10/2021,134,Officeworks,9.95,Work Related Expenses,Stationary,Printing
+601,13/10/2021,134,Officeworks,13.25,Work Related Expenses,Stationary,Printing
+602,12/10/2021,134,Officeworks,1.99,Work Related Expenses,Stationary,Printing
+603,17/10/2021,134,Officeworks,1.99,Work Related Expenses,Stationary,Printing
+604,26/10/2021,134,Officeworks,2.65,Work Related Expenses,Stationary,Printing
+605,26/10/2021,134,Officeworks,34.45,Work Related Expenses,Stationary,Printing
+606,12/10/2021,134,Officeworks,1.99,Work Related Expenses,Stationary,Printing
+607,19/05/2021,134,Officeworks,4.82,Work Related Expenses,Stationary,Printing
+616,26/11/2020,134,Officeworks,14.88,Work Related Expenses,Stationary,Cables
+617,25/11/2020,134,Officeworks,3.48,Work Related Expenses,Stationary,Scissors
+654,4/08/2020,134,Officeworks,1.99,Work Related Expenses,Stationary,
+655,4/08/2020,134,Officeworks,1.99,Work Related Expenses,Stationary,
+660,6/10/2020,206,Microsoft,129,Work Related Expenses,Stationary,Office 365 Licence
+661,21/10/2020,134,Officeworks,1.82,Work Related Expenses,Stationary,Printing
+662,24/11/2020,134,Officeworks,1.82,Work Related Expenses,Stationary,
+663,14/12/2020,134,Officeworks,3.64,Work Related Expenses,Stationary,
+664,16/12/2020,134,Officeworks,1.82,Work Related Expenses,Stationary,
+665,25/12/2020,134,Officeworks,33.74,Work Related Expenses,Stationary,
+675,13/01/2021,134,Officeworks,199.98,Work Related Expenses,Stationary,Printer Cartridges
+724,30/06/2022,134,Officeworks,139.09,Work Related Expenses,Stationary,Printing Costs
+743,30/06/2023,134,Officeworks,108.22,Work Related Expenses,Stationary,Combined 20 Invoices
+755,18/07/2022,33,Amazon,48.99,Work Related Expenses,Stationary,
+760,30/06/2023,104,Jaycar,200,Work Related Expenses,Stationary,
+804,22/05/2024,134,Officeworks,1.94,Work Related Expenses,Stationary,
+805,15/05/2024,134,Officeworks,1.95194,Work Related Expenses,Stationary,
+806,9/05/2024,134,Officeworks,6.34,Work Related Expenses,Stationary,
+807,4/05/2024,134,Officeworks,7,Work Related Expenses,Stationary,
+808,27/02/2024,134,Officeworks,13.5,Work Related Expenses,Stationary,
+809,24/04/2024,134,Officeworks,6.34,Work Related Expenses,Stationary,
+810,17/04/2024,134,Officeworks,2.34,Work Related Expenses,Stationary,
+811,29/04/2024,134,Officeworks,130,Work Related Expenses,Stationary,
+812,12/06/2024,134,Officeworks,4.5,Work Related Expenses,Stationary,
+813,14/02/2024,134,Officeworks,10.5,Work Related Expenses,Stationary,
+814,14/02/2024,134,Officeworks,23,Work Related Expenses,Stationary,
+815,18/02/2024,134,Officeworks,1.94,Work Related Expenses,Stationary,
+816,14/02/2024,134,Officeworks,5.8,Work Related Expenses,Stationary,
+817,20/12/2023,134,Officeworks,8,Work Related Expenses,Stationary,
+818,24/11/2023,134,Officeworks,10.5,Work Related Expenses,Stationary,
+819,10/10/2023,134,Officeworks,3.88,Work Related Expenses,Stationary,
+820,20/12/2023,134,Officeworks,24,Work Related Expenses,Stationary,
+821,29/08/2023,134,Officeworks,1.94,Work Related Expenses,Stationary,
+822,1/09/2023,134,Officeworks,3.5,Work Related Expenses,Stationary,
+823,1/03/2024,134,Officeworks,130,Work Related Expenses,Stationary,Printer Ink
+837,4/05/2024,134,Officeworks,21,Work Related Expenses,Stationary,
+538,14/02/2021,122,Amazon,137,Work Related Expenses,Tools,Uhf Radio Microphone And Antenna
+541,6/09/2021,156,Repco,99,Work Related Expenses,Tools,Tow Ball Weight Scale
+542,6/09/2021,4,Bunnings Warehouse,17.53,Work Related Expenses,Tools,Rope And Webbing
+552,26/09/2020,177,Trade Tools,577,Work Related Expenses,Tools,"Soldering Iron, Angle Grinder, Batteries"
+560,12/02/2021,104,Jaycar,125.7,Work Related Expenses,Tools,Usb Charger Lead For Phone And Cigarette Fast Charger
+564,6/10/2020,231,Century Yuasa Batteries,319.75,Work Related Expenses,Tools,Battery For Cell To Run Fridge
+566,28/08/2020,223,Allans Electronics,5.5,Work Related Expenses,Tools,Audio Lead For Ampac Ows
+569,18/05/2021,13,Haymans Electrical Tools,20,Work Related Expenses,Tools,Holesaw Kit
+570,14/12/2020,41,Bcf,27.27,Work Related Expenses,Tools,Miscellaneous Tools
+572,9/10/2020,4,Bunnings Warehouse,73.6,Work Related Expenses,Tools,Gas Cylinder For Soldering
+574,22/05/2021,105,Jb Hifi,219.7,Work Related Expenses,Tools,Phone Tools And Covers
+610,15/04/2021,223,Allans Electronics,5.1,Work Related Expenses,Tools,Resistors
+611,1/04/2021,134,Officeworks,29.88,Work Related Expenses,Tools,Programming Lead
+612,20/12/2020,4,Bunnings Warehouse,11.79,Work Related Expenses,Tools,Tarpaulin
+613,22/12/2020,223,Allans Electronics,4.95,Work Related Expenses,Tools,Programming Lead
+619,15/11/2020,4,Bunnings Warehouse,39.7,Work Related Expenses,Tools,
+620,23/11/2021,4,Bunnings Warehouse,4.72,Work Related Expenses,Tools,
+621,1/12/2020,156,Repco,5,Work Related Expenses,Tools,
+649,20/07/2020,4,Bunnings Warehouse,168.38,Work Related Expenses,Tools,
+650,21/07/2020,4,Bunnings Warehouse,109.66,Work Related Expenses,Tools,
+651,23/07/2020,4,Bunnings Warehouse,65,Work Related Expenses,Tools,
+652,25/07/2020,4,Bunnings Warehouse,25.6,Work Related Expenses,Tools,
+657,1/07/2020,71,Ebay Online Purchase,27.99,Work Related Expenses,Tools,Bootlace Crimper 0.25-6mm² Hexagonal Terminal Ferrule Crimping Tool
+658,2/07/2020,71,Ebay Online Purchase,26,Work Related Expenses,Tools,0.5-6 Mm² Yellow Blue Red Insulated Terminals Crimper Crimping Tool Pliers
+668,29/09/2020,156,Repco,13,Work Related Expenses,Tools,
+669,6/10/2020,4,Bunnings Warehouse,223.9,Work Related Expenses,Tools,
+670,23/10/2020,4,Bunnings Warehouse,46.15,Work Related Expenses,Tools,
+672,18/11/2020,4,Bunnings Warehouse,39.7,Work Related Expenses,Tools,
+674,3/12/2020,177,Trade Tools,79,Work Related Expenses,Tools,
+676,16/01/2021,237,Hare & Forbes,99,Work Related Expenses,Tools,
+687,20/12/2021,177,Trade Tools,169,Work Related Expenses,Tools,Milwaukee M12 12v Right Angle Drill Skin
+689,3/11/2023,104,Jaycar,24.95,Work Related Expenses,Tools,Anderson Plug And Lead
+693,27/01/2023,104,Jaycar,4.95,Work Related Expenses,Tools,Distribution Post
+695,3/11/2023,239,Kropps,75,Work Related Expenses,Tools,Laser Alignment 
+697,24/06/2023,39,Autobarn,166.46,Work Related Expenses,Tools,
+698,12/08/2023,179,Tyres & More,512,Work Related Expenses,Tools,
+699,20/12/2021,240,Tjm,182.91,Work Related Expenses,Tools,
+700,21/02/2022,177,Trade Tools,49,Work Related Expenses,Tools,Torque Wrench
+702,21/02/2022,242,Arb,212,Work Related Expenses,Tools,Recovery Point
+704,24/02/2023,104,Jaycar,14,Work Related Expenses,Tools,Tools
+705,24/02/2023,4,Bunnings Warehouse,15.96,Work Related Expenses,Tools,Hoses
+706,25/06/2022,4,Bunnings Warehouse,46,Work Related Expenses,Tools,Led Lights
+707,20/06/2022,4,Bunnings Warehouse,51.25,Work Related Expenses,Tools,Sockets
+709,25/06/2022,4,Bunnings Warehouse,9.89,Work Related Expenses,Tools,Door Seal
+711,29/12/2022,4,Bunnings Warehouse,28.86,Work Related Expenses,Tools,Matting
+712,14/07/2021,4,Bunnings Warehouse,14.8,Work Related Expenses,Tools,Shackles
+713,20/03/2022,41,Bcf,24.99,Work Related Expenses,Tools,Gas
+714,20/03/2022,4,Bunnings Warehouse,37.5,Work Related Expenses,Tools,Chain Sharpener
+715,8/01/2022,41,Bcf,26.99,Work Related Expenses,Tools,Gas
+717,30/10/2021,177,Trade Tools,279,Work Related Expenses,Tools,Trolley Jack
+719,10/02/2023,240,Tjm,195,Work Related Expenses,Tools,Mount
+727,24/02/2022,140,Paypal,61.9,Work Related Expenses,Tools,Recovery Gear
+729,23/05/2022,177,Trade Tools,43.9,Work Related Expenses,Tools,Chain
+730,31/05/2022,177,Trade Tools,185,Work Related Expenses,Tools,"Renegade Industrial 1/2"" Drive 42 Piece Impact Socket Set Std & Deep Bl Owmould Case, Force 1/2"" Drive Universal Joint Impact Socket Individual"
+731,20/06/2022,177,Trade Tools,200,Work Related Expenses,Tools,Renegade Industrial Car Ramp Comes As Pair - 1200kg Each Base 334mmHeight 238mm
+732,21/04/2022,104,Jaycar,227.6,Work Related Expenses,Tools,4 Invoices Combined
+744,3/10/2022,246,Dji Industries,79,Work Related Expenses,Tools,
+747,27/11/2022,247,Itech World,331.55,Work Related Expenses,Tools,Js80 3000 Amp Portable Jump Starter Backup Power Bank With Heavy Duty Case
+748,25/04/2023,247,Itech World,999,Work Related Expenses,Tools,Itech120x Pro 120ah 12v Lithium Deep Cycle Battery
+749,13/11/2023,247,Itech World,958,Work Related Expenses,Tools,Itech120x Pro 120ah 12v Lithium Deep Cycle Battery
+750,24/11/2023,247,Itech World,189,Work Related Expenses,Tools,150w Hard Frame Solar Panel High Voltage 42v
+756,3/09/2022,250,Sydney Tools,89,Work Related Expenses,Tools,Micro Sockets
+757,4/02/2022,104,Jaycar,8.7,Work Related Expenses,Tools,
+758,9/11/2022,165,Super Cheap Auto,5.89,Work Related Expenses,Tools,
+759,1/07/2023,4,Bunnings Warehouse,92.41,Work Related Expenses,Tools,
+761,18/01/2023,177,Trade Tools,49,Work Related Expenses,Tools,Renegade Industrial 60mm Digital Level
+762,27/11/2022,177,Trade Tools,57.69,Work Related Expenses,Tools,Battery Usb Power Source
+763,28/10/2022,177,Trade Tools,161,Work Related Expenses,Tools,Milwaukee M18 Jobsite Fan
+764,14/01/2021,177,Trade Tools,256,Work Related Expenses,Tools,Renegade Industrial 280 Watt Fans
+768,23/07/2023,4,Bunnings Warehouse,71.35,Work Related Expenses,Tools,Spray Gear For Spiders
+769,10/11/2022,165,Super Cheap Auto,97.46,Work Related Expenses,Tools,Terminals And Cables
+770,21/11/2022,104,Jaycar,11.9,Work Related Expenses,Tools,Fuses
+771,17/11/2022,104,Jaycar,44.75,Work Related Expenses,Tools,Fuses
+772,23/05/2022,4,Bunnings Warehouse,168.28,Work Related Expenses,Tools,Wet Dry Vac
+773,2/01/2024,104,Jaycar,49.1,Work Related Expenses,Tools,Fuse Holder
+774,3/11/2023,104,Jaycar,24.95,Work Related Expenses,Tools,Andersen Plugs
+780,6/11/2022,104,Jaycar,7.95,Work Related Expenses,Tools,Dc Regulator
+781,21/02/2022,104,Jaycar,160.75,Work Related Expenses,Tools,"Isolator, Relay, Contacts"
+782,28/01/2022,104,Jaycar,24.95,Work Related Expenses,Tools,Andersen Plug Lead
+783,27/12/2021,4,Bunnings Warehouse,31.7,Work Related Expenses,Tools,Adaptors
+785,14/06/2023,157,Roof Racks Galore,424.94,Work Related Expenses,Tools,"Max Trax, Recovery Gear"
+786,17/05/2023,157,Roof Racks Galore,699,Work Related Expenses,Tools,Awning
+787,1/07/2023,165,Super Cheap Auto,28.98,Work Related Expenses,Tools,Oil And Filter
+788,21/10/2023,4,Bunnings Warehouse,22.2,Work Related Expenses,Tools,
+789,1/07/2023,4,Bunnings Warehouse,92.41,Work Related Expenses,Tools,
+825,1/11/2023,33,Amazon,339,Work Related Expenses,Tools,Sennheiser Momentum True Wireless 3 Earbuds
+826,15/12/2023,33,Amazon,18.99,Work Related Expenses,Tools,Electop 2 Pack Usb 2.0 A Female To Usb B Print Male Adapter Converter
+827,31/03/2024,33,Amazon,16.39,Work Related Expenses,Tools,Grarro 390pcs Awg (2 4 6 8 10 12 14 16) Wire Ferrules Kits Crimp Terminal
+828,31/03/2024,33,Amazon,64.32,Work Related Expenses,Tools,"Zhushan Wire Ferrule Crimper,16-4 Square Jaw Ferrule Crimp Tool"
+829,29/12/2023,41,Bcf,79.99,Work Related Expenses,Tools,
+830,1/03/2024,4,Bunnings Warehouse,186.89,Work Related Expenses,Tools,
+831,18/06/2024,4,Bunnings Warehouse,93.53,Work Related Expenses,Tools,
+833,30/06/2024,165,Super Cheap Auto,115,Work Related Expenses,Tools,
+834,15/01/2024,253,Total Tools,1199,Work Related Expenses,Tools,Backup Generator
+835,28/01/2024,253,Total Tools,156,Work Related Expenses,Tools,Blower Skin
+838,25/11/2023,217,Bunnings Warehouse,47.95,Work Related Expenses,Tools,
+648,18/02/2021,233,Get Skilled Training,1650,Work Related Expenses,Training,Ac Split System Installation Training And Licence
+653,30/06/2021,77,Etu,895.44,Work Related Expenses,Union Fees,Union Fees
+720,30/06/2022,77,Etu,922.23,Work Related Expenses,Union Fees,Union Fees
+721,30/06/2023,77,Etu,954.03,Work Related Expenses,Union Fees,Union Fees
+796,30/06/2024,77,Etu,935.97,Work Related Expenses,Union Fees,Union Fees
+

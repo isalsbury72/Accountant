@@ -95,6 +95,7 @@ Use one of these methods to put the app files into GitHub:
 2. Click **Add file** → **Upload files**.
 3. Drag/drop these files from your local project folder:
    - `index.html`, `app.js`, `styles.css`, `manifest.json`, `sw.js`, `start-local.bat`, `convert-csv.bat`, `README.md`
+   - `index.html`, `app.js`, `styles.css`, `manifest.json`, `sw.js`, `start-local.bat`, `README.md`
 4. Click **Commit changes**.
 5. Download ZIP again — it should now contain the real project files.
 
