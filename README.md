@@ -94,6 +94,7 @@ Use one of these methods to put the app files into GitHub:
 1. Open your `Accountant` repo on GitHub.
 2. Click **Add file** → **Upload files**.
 3. Drag/drop these files from your local project folder:
+   - `index.html`, `app.js`, `styles.css`, `manifest.json`, `sw.js`, `start-local.bat`, `convert-csv.bat`, `README.md`
    - `index.html`, `app.js`, `styles.css`, `manifest.json`, `sw.js`, `start-local.bat`, `README.md`
 4. Click **Commit changes**.
 5. Download ZIP again — it should now contain the real project files.
@@ -101,6 +102,33 @@ Use one of these methods to put the app files into GitHub:
 ### Method 2: Push with Git (if installed)
 ```bash
 git remote add origin <your-github-repo-url>
+git push -u origin <your-branch-name>
+```
+
+## Why "Create PR" did not update GitHub files
+
+Important: creating a PR message does **not** upload code by itself.
+
+For GitHub to show new files, this order is required:
+1. Commit changes locally.
+2. Push the branch to GitHub.
+3. Open/update PR on GitHub.
+
+### Quick diagnosis commands
+```bash
+git status
+git remote -v
+git branch --show-current
+git log --oneline -5
+```
+
+If `git remote -v` is empty, connect remote first:
+```bash
+git remote add origin <your-github-repo-url>
+```
+
+Then push your current branch:
+```bash
 git push -u origin <your-branch-name>
 ```
 
@@ -208,6 +236,139 @@ Then open:
 - `http://127.0.0.1:4173`
 
 If `127.0.0.1` does not load, try `http://localhost:4173`.
+
+## Import your 2 CSV files (suppliers + invoices)
+
+Best path: convert both CSV files into the app's JSON backup format, then use **Import JSON** in the app.
+
+### 1) Prepare CSV headers
+The converter accepts common header names automatically:
+- Suppliers CSV: `name`/`supplier_name`, optional `address`, `phone`, `category`, `subcategory`
+- Invoices CSV: `date`, `supplier`/`supplier_name`, `amount`, optional `category`, `subcategory`, `description`
+
+### 2) Run converter
+```bash
+python3 csv_to_accountant_json.py \
+  --suppliers suppliers.csv \
+  --invoices invoices.csv \
+  --out accountant-import.json
+```
+
+### Windows PowerShell (recommended commands)
+Use **one command on one line** (do not include literal `\n` text):
+
+```powershell
+py .\csv_to_accountant_json.py --suppliers .\suppliers.csv --invoices .\invoices.csv --out .\accountant-import.json
+```
+
+If you prefer multiple lines in PowerShell, use the backtick character (`` ` ``), **not** `\`:
+
+```powershell
+py .\csv_to_accountant_json.py `
+  --suppliers .\suppliers.csv `
+  --invoices .\invoices.csv `
+  --out .\accountant-import.json
+```
+
+If `python3` is not found on Windows, that is normal. Try `py` first.
+
+### Windows easiest option (no flags)
+You can also run the helper batch file:
+
+```bat
+convert-csv.bat suppliers.csv invoices.csv accountant-import.json
+```
+
+### Can I run this converter in GitHub Codespaces?
+Yes.
+
+In Codespaces Terminal, run from the repo root:
+
+```bash
+python3 csv_to_accountant_json.py \
+  --suppliers suppliers.csv \
+  --invoices invoices.csv \
+  --out accountant-import.json
+```
+
+Then either:
+- download `accountant-import.json` from Codespaces to your computer and import in the app, or
+- if running the app inside Codespaces, use that file directly with **Import JSON**.
+
+If your CSV files are on your PC, upload them into the Codespace first (drag/drop into the file tree).
+
+### If you get `FileNotFoundError` in Codespaces
+This means Python cannot see one of the CSV files from your current folder.
+
+Run these checks first:
+```bash
+pwd
+ls -la
+```
+
+If files are missing locally, pull latest from GitHub:
+```bash
+git pull
+```
+
+Then run with full paths (most reliable):
+```bash
+python3 csv_to_accountant_json.py \
+  --suppliers /workspaces/Accountant/suppliers.csv \
+  --invoices /workspaces/Accountant/invoices.csv \
+  --out /workspaces/Accountant/accountant-import.json
+```
+
+### 3) Import into the app
+1. Open the app.
+2. Click **Import JSON**.
+3. Select `accountant-import.json`.
+
+Notes:
+- This imports suppliers + expenses.
+- Invoice files/photos are not imported from CSV (CSV does not contain binary file data).
+
+### What to do right after CSV import (recommended)
+1. **Export a backup immediately**
+   - Click **Export JSON** and save the file somewhere safe (for rollback).
+2. **Check supplier cleanup**
+   - Open the **Suppliers** section and look for duplicate names (e.g., `Officeworks` vs `Office Works`).
+   - Keep one canonical name and re-import cleaned CSV later if needed.
+3. **Check totals match your source**
+   - Compare the app total in **P&L Report** with your CSV/accounting export total for the same date range.
+4. **Set your financial-year range**
+   - Confirm **From** / **To** dates match your tax year before reviewing totals.
+5. **Attach invoices progressively**
+   - CSV import brings text rows only; attach PDF/photo files as you work through records.
+6. **Do a restore test once**
+   - Import your exported JSON into a fresh browser profile/device to confirm your backup works.
+
+### Common data quality fixes after import
+- If categories are messy, clean category/sub-category values in CSV and re-run the converter.
+- If amounts are wrong, ensure source CSV uses plain numeric values (the converter strips `$` and commas).
+- If dates are blank, verify invoice CSV has a `date` column (or alias like `invoice_date`).
+
+## Can I run this over the web from GitHub?
+
+Yes — this app is static, so it can be hosted with **GitHub Pages**.
+
+### Important notes first
+- It works well on GitHub Pages because there is no backend server required.
+- Data is still local to each browser/device (IndexedDB), so phone and laptop do not auto-sync.
+- If your repo is private, GitHub Pages availability depends on your GitHub plan/org settings.
+
+### Quick publish steps (GitHub Pages)
+1. Push the project files to your GitHub repo.
+2. In GitHub, open **Settings → Pages**.
+3. Under **Build and deployment**, set:
+   - **Source**: `Deploy from a branch`
+   - **Branch**: `main` (or your branch), folder `/ (root)`
+4. Save, wait for deploy, then open the Pages URL shown there.
+
+### If Pages is not available
+- Make the repo public, or
+- Use your DreamIT static hosting (upload the same files), or
+- Keep running locally via `start-local.bat`.
 
 ## Data model (MVP)
 
