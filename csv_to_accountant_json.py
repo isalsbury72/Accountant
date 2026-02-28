@@ -36,6 +36,18 @@ def parse_amount(raw: str) -> float:
 
 
 def load_csv(path: Path) -> List[Dict[str, str]]:
+    if not path.exists():
+        cwd = Path.cwd()
+        available = sorted(p.name for p in cwd.glob("*.csv"))
+        hints = "\n".join(f"  - {name}" for name in available) if available else "  (no .csv files found in current folder)"
+        raise FileNotFoundError(
+            f"CSV file not found: {path}\n"
+            f"Current working directory: {cwd}\n"
+            f"CSV files visible in this folder:\n{hints}\n"
+            "Hint: in Codespaces, run 'pwd' and 'ls -la' first, or pass full paths "
+            "(e.g. --suppliers /workspaces/Accountant/suppliers.csv)."
+        )
+
     with path.open("r", encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle)
         return [dict(row) for row in reader]
